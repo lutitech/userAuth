@@ -7,7 +7,7 @@ const express = require('express');
 
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://lutitech:luti4148@cluster0.nc29o.mongodb.net/<dbname>?retryWrites=true&w=majority',  {useNewUrlParser: true}, () => {
+mongoose.connect('mongodb+srv://lutitech:luti4148@cluster0.nc29o.mongodb.net/userAuth?retryWrites=true&w=majority',  {useNewUrlParser: true}, () => {
     console.log('connected to atlas')
 });
 
